@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+@import "mixins";
+
+h1 {
+  text-align: center;
+}
+.slider-wrapper {
+  display: inline-block;
+  width: 50px;
+  height: 300px;
+  padding: 0;
+  input {
+    width: 300px;
+    margin: 0;
+    transform-origin: 0px 0px;
+    transform: rotate(90deg);
+  }
+}
