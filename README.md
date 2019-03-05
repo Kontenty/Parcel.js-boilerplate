@@ -23,9 +23,10 @@ Shows how to use Parcel.js with
 - jQuery
 - Bootstrap
 - Sass
-  And adds some conveniences<br>
-  Parcel.js hashes all output filenames so dist filder gets cluttered. That's why there is used rimraf - to clean dist folder.<br>
-  Parcel loads all files referenced by index.html into one output folder. However some images loaded by js - i.e. defered or lazyloaded, will not. Those place in static folder, and will be copied by parcel-plugin-static-files-copy.
+
+Additionally it adds some conveniences<br>
+Parcel.js hashes all output filenames so dist filder gets cluttered. That's why there is used rimraf - to clean dist folder.<br>
+Parcel loads all files referenced by index.html into one output folder. However some images loaded by js - i.e. defered or lazyloaded, will not. Those place in static folder, and will be copied by parcel-plugin-static-files-copy.
 
 ### How to use
 
